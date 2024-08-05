@@ -1,0 +1,4 @@
+include:
+  - project: devops/ci-templates
+    ref: develop
+    file: base-ui.yml

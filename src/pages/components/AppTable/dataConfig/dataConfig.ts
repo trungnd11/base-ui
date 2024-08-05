@@ -1,0 +1,122 @@
+export const sampleData = [
+  {
+    id: "1",
+    idType: "Passport",
+    idNo: "123456789",
+    fullName: "John Doe",
+    dob: "1990-01-01",
+    mobiNumber: "+123456789",
+    gender: "Male",
+    jobName: "Software Engineer",
+    position: "Senior Developer",
+    idIssueDate: "2020-01-01"
+  },
+  {
+    id: "2",
+    idType: "ID Card",
+    idNo: "987654321",
+    fullName: "Jane Smith",
+    dob: "1995-05-15",
+    mobiNumber: "+987654321",
+    gender: "Female",
+    jobName: "Data Scientist",
+    position: "Senior Analyst",
+    idIssueDate: "2018-06-10"
+  },
+  {
+    id: "3",
+    idType: "Driver's License",
+    idNo: "456789123",
+    fullName: "Michael Johnson",
+    dob: "1988-09-20",
+    mobiNumber: "+456789123",
+    gender: "Male",
+    jobName: "Project Manager",
+    position: "Lead Developer",
+    idIssueDate: "2019-03-25"
+  },
+  {
+    id: "4",
+    idType: "Passport",
+    idNo: "789123456",
+    fullName: "Emily Brown",
+    dob: "1992-11-28",
+    mobiNumber: "+789123456",
+    gender: "Female",
+    jobName: "UX Designer",
+    position: "Senior Designer",
+    idIssueDate: "2017-08-15"
+  },
+  {
+    id: "5",
+    idType: "ID Card",
+    idNo: "321654987",
+    fullName: "Christopher Lee",
+    dob: "1985-07-12",
+    mobiNumber: "+321654987",
+    gender: "Male",
+    jobName: "Data Analyst",
+    position: "Junior Analyst",
+    idIssueDate: "2016-05-20"
+  },
+  {
+    id: "6",
+    idType: "Passport",
+    idNo: "654987321",
+    fullName: "Jessica Taylor",
+    dob: "1987-03-08",
+    mobiNumber: "+654987321",
+    gender: "Female",
+    jobName: "Software Developer",
+    position: "Junior Developer",
+    idIssueDate: "2020-11-05"
+  },
+  {
+    id: "7",
+    idType: "Driver's License",
+    idNo: "147258369",
+    fullName: "Daniel Wilson",
+    dob: "1979-12-04",
+    mobiNumber: "+147258369",
+    gender: "Male",
+    jobName: "QA Engineer",
+    position: "Senior QA",
+    idIssueDate: "2018-07-30"
+  },
+  {
+    id: "8",
+    idType: "ID Card",
+    idNo: "258369147",
+    fullName: "Amanda Miller",
+    dob: "1993-04-18",
+    mobiNumber: "+258369147",
+    gender: "Female",
+    jobName: "Product Manager",
+    position: "Lead Product Manager",
+    idIssueDate: "2015-10-12"
+  },
+  {
+    id: "9",
+    idType: "Passport",
+    idNo: "369147258",
+    fullName: "William Anderson",
+    dob: "1980-08-22",
+    mobiNumber: "+369147258",
+    gender: "Male",
+    jobName: "System Administrator",
+    position: "Senior Administrator",
+    idIssueDate: "2019-09-08"
+  },
+  {
+    id: "10",
+    idType: "Driver's License",
+    idNo: "147258369",
+    fullName: "Olivia Garcia",
+    dob: "1997-02-15",
+    mobiNumber: "+147258369",
+    gender: "Female",
+    jobName: "Network Engineer",
+    position: "Senior Network Engineer",
+    idIssueDate: "2016-12-18"
+  }
+];

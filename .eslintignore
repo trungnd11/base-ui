@@ -1,0 +1,4 @@
+*.css
+*.scss
+webpack.config.js
+/dist/
