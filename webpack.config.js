@@ -16,7 +16,7 @@ module.exports = (env, argv) => {
       filename: "[name].js",
       chunkFilename: "[id].[contenthash:8].chunk.js",
       clean: true,
-      publicPath: isProduction ? "https://dev-demo-microfe.vetc.com.vn/" : "http://localhost:3000/",
+      publicPath: isProduction ? "https://base-components-ui.vercel.app/" : "http://localhost:3000/",
     },
     devServer: {
       port: 3000,
