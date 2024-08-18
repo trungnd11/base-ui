@@ -10,7 +10,7 @@ export const SiderBarContainer = styled.div`
   .ant-menu.ant-menu-root.ant-menu-light {
     min-height: 100%;
     border-bottom-right-radius: 0.5rem;
-    background-color: ${Color.green};
+    /* background-color: ${Color.green}; */
     font-size: ${FontSize.F13};
     color: ${Color.white};
 

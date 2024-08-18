@@ -2,7 +2,7 @@ import { RoutersModel } from "@models/routersModel/RoutersModel";
 import { generateId } from "@utils/genertateIdUtil";
 import { lazy } from "react";
 
-const FormCommonPage = lazy(async () => await import("@pages/components/FormCommon/FormCommonPage"));
+const AppFormPage = lazy(async () => await import("@pages/components/AppForm/AppFormPage"));
 const AppTablePage = lazy(async () => await import("@pages/components/AppTable/AppTablePage"));
 const LoadingSeleton = lazy(async () => await import("@pages/loadingSkeletonSearch/LoadingSkeletonSearch"));
 const LoadingListCard = lazy(async () => await import("@pages/loadingSkeletonListCard/LoadingSkeletonListCard"));
@@ -27,19 +27,19 @@ const routers: RoutersModel[] = [
     name: "Trang chủ",
     path: "/home",
     icon: "TeamOutlined",
-    element: FormCommonPage,
+    element: AppFormPage,
     children: [
       {
         id: generateId(),
         name: "Components",
         path: "/components",
-        element: FormCommonPage,
+        element: AppFormPage,
         children: [
           {
             id: generateId(),
-            name: "FormCommon",
-            path: "/component/form-common",
-            element: FormCommonPage,
+            name: "AppForm",
+            path: "/component/app-form",
+            element: AppFormPage,
           },
           {
             id: generateId(),

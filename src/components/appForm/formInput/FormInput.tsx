@@ -6,7 +6,7 @@ import { formatDateToString, formatStringToDate, isDate } from "@utils/dateUtil"
 import { FormInputStyle, RequiredComponent, TitleFormInput } from "./formInputStyle";
 import AppCheckbox from "@components/appCheckbox/AppCheckbox";
 import AppDatePicker from "@components/appDatePicker/AppDatePicker";
-import { AppDatePickkerForm, AppInputPropsForm, AppSelectPropsForm } from "@models/componentModels/FormCommonModel";
+import { AppDatePickkerForm, AppInputPropsForm, AppSelectPropsForm } from "@models/componentModels/AppFormModel";
 
 interface PropsFormInput<T = any> extends FormItemProps {
   name: string

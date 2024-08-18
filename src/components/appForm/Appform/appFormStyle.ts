@@ -1,15 +1,12 @@
 import { styled } from "styled-components";
-import { Color } from "../../variable";
 
 export const FormSearchCommontStyle = styled.div`
   margin-bottom: 1rem;
   .ant-collapse {
-    background-color: ${Color.green};
     border: none;
 
     .ant-collapse-header {
       padding: 8px 16px !important;
-      color: ${Color.white};
     }
 
     .ant-collapse-item {

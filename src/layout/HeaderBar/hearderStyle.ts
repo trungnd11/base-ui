@@ -1,4 +1,4 @@
-import { Color } from "@components/variable";
+import { Color, FontSize } from "@components/variable";
 import styled from "styled-components";
 
 export const HeaderStyle = styled.div`
@@ -16,9 +16,9 @@ export const HeaderStyle = styled.div`
 
   .logo {
     display: flex;
-    img {
-      height: 100%;
-      width: 8%;
+    span {
+      font-weight: 600;
+      font-size: ${FontSize.F20};
     }
   }
 

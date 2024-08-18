@@ -54,7 +54,7 @@ export default function Container({ action, routers, basename }: ContainerProps)
               </div>
             </div>
           </Content>
-          <Footer id="footer">©2023 <b>VETC</b></Footer>
+          <Footer id="footer">©2023 <b>Trungg</b></Footer>
         </Layout>
       </Layout>
     </ContainerStyle>

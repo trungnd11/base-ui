@@ -80,7 +80,7 @@ export interface GroupOptionsType {
   layout?: LayoutProps
 }
 
-export interface FormCommonProps<T = any, K extends TypeConfig = any> {
+export interface AppFormProps<T = any, K extends TypeConfig = any> {
   titleSearch?: React.ReactNode | string
   titleResult?: React.ReactNode | string
   options: OptionsFormType<K>

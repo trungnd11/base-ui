@@ -1,6 +1,6 @@
 import styled, { keyframes } from "styled-components";
 import { zoomIn } from "react-animations";
-import bg from "@static/images/bg/bg.png";
+import bg from "@static/images/login/login.jpg";
 import { BorderRadius, Color, Devices } from "@components/variable";
 
 interface LoginContainerStyleProps {

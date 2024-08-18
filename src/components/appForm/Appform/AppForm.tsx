@@ -3,23 +3,23 @@ import { Col, Collapse, Form, Row } from "antd";
 import { FieldValues, useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { SearchOutlined } from "@ant-design/icons";
-import { FormCommonProps, OptionFormType, RequiredListType } from "@models/componentModels/FormCommonModel";
+import { AppFormProps, OptionFormType, RequiredListType } from "@models/componentModels/AppFormModel";
 import { formatDateToString, isDate } from "@utils/dateUtil";
 import { useAppSelector } from "@store/hook";
 import { getConfigStore } from "@store/configSelects/configSelects";
 import AppCheckbox from "@components/appCheckbox/AppCheckbox";
 import { isEmptyObject, isObject } from "@utils/objectUtil";
 import AppCard from "@components/appCard/AppCard";
-import { getInitLayout, getOptionApp, initFromData } from "./FromCommonServices";
-import FromButtonCommon from "./FromButtonCommon";
+import { getInitLayout, getOptionApp, initFromData } from "./AppFromServices";
+import FromButtonCommon from "./AppFromButtonGroup";
 import FormInput from "../formInput/FormInput";
-import { FormBodyItemStyle, FormSearchCommontStyle, HeaderSearch } from "./formCommonStyle";
+import { FormBodyItemStyle, FormSearchCommontStyle, HeaderSearch } from "./appFormStyle";
 import { trimValue } from "@utils/stringUtil";
 import { removeSpace } from "@helper/functionCommon";
 
 const { Panel } = Collapse;
 
-function FormCommon<T>(props: FormCommonProps<T>, ref: any) {
+function AppForm<T>(props: AppFormProps<T>, ref: any) {
   const {
     options,
     gutter,
@@ -392,4 +392,4 @@ function FormCommon<T>(props: FormCommonProps<T>, ref: any) {
   ;
 }
 
-export default forwardRef(FormCommon);
+export default forwardRef(AppForm);

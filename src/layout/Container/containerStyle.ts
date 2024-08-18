@@ -11,7 +11,6 @@ export const ContainerStyle = styled.div<ContainerStyleProps>`
     top: 0;
     width: 100%;
     z-index: 100;
-    background-color: ${Color.green};
     border-bottom: 1px solid ${Color.white};
 
     .logo {
@@ -34,7 +33,6 @@ export const ContainerStyle = styled.div<ContainerStyleProps>`
     top: ${HeaderComponent.height};
     bottom: 0px;
     overflow-x: hidden;
-    background-color: ${Color.green};
 
     &::-webkit-scrollbar-track {
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -109,6 +107,6 @@ export const ContainerStyle = styled.div<ContainerStyleProps>`
     background-color: ${Color.grayBland};
     text-align: center;
     padding: 1rem;
-    border-top: .5px solid ${Color.green};
+    border-top: .5px solid ${Color.borderTable};
   }
 `;

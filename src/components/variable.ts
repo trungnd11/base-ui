@@ -67,6 +67,8 @@ export const FontSize = {
   F16: "16px",
   F20: "20px",
   F25: "25px",
+  F30: "30px",
+  F32: "32px",
 };
 
 export const MainColor = "#01a651";

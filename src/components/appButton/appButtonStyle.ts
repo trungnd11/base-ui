@@ -3,7 +3,6 @@ import { Color } from "../variable";
 
 export const AppButtonStyle = styled.div`
   button {
-    background-color: ${Color.green};
     box-shadow: none;
 
     &:disabled {

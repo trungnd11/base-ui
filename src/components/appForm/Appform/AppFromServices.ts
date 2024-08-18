@@ -1,7 +1,7 @@
 import { formatDateToString, formatYearToDate, isDate } from "@utils/dateUtil";
 import { isArray } from "@utils/arrayUtil";
 import { isObject } from "@utils/objectUtil";
-import { GroupOptionsType, OptionFormType } from "@models/componentModels/FormCommonModel";
+import { GroupOptionsType, OptionFormType } from "@models/componentModels/AppFormModel";
 
 export const getInitLayout = (item: OptionFormType | GroupOptionsType) => {
   return {

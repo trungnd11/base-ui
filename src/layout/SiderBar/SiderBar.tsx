@@ -112,6 +112,7 @@ export default function SiderBar() {
   return (
     <SiderBarContainer>
       <Menu
+        theme="dark"
         mode="inline"
         inlineIndent={10}
         openKeys={openKeys}

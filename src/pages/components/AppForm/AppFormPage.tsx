@@ -3,10 +3,10 @@ import { useRef } from "react";
 import * as yup from "yup";
 import AppButton from "@components/appButton/AppButton";
 import AppInput from "@components/appInput/AppInput";
-import FormCommon from "@components/form/formCommon/FormCommon";
 import { isWithinNumberDays } from "@helper/functionCommon";
-import { IFormRef, OptionsFormType } from "@models/componentModels/FormCommonModel";
+import { IFormRef, OptionsFormType } from "@models/componentModels/AppFormModel";
 import AppDatePicker from "@components/appDatePicker/AppDatePicker";
+import AppForm from "@components/appForm/Appform/AppForm";
 
 const schemaSearch = yup.object({
   accountName: yup
@@ -138,7 +138,7 @@ export default function FormCommonPage() {
 
   return (
     <>
-      <FormCommon
+      <AppForm
         formItem
         ref={ref}
         schema={schemaSearch}

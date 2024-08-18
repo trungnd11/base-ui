@@ -3,17 +3,17 @@ import { FormState, UseFormReset } from "react-hook-form";
 import { NotPermissionMessageEnum } from "@enum/RoleEnum";
 import usePrivileges from "@components/hook/usePrivileges";
 import { AlignComponent } from "@components/commonStyle/CommonStyle";
-import { FormCommonProps } from "@models/componentModels/FormCommonModel";
+import { AppFormProps } from "@models/componentModels/AppFormModel";
 import AppButton from "@components/appButton/AppButton";
 
-interface FromButtonCommonProps<T> extends FormCommonProps<T> {
+interface AppFromButtonGroupProps<T> extends AppFormProps<T> {
   handleSearch?: () => void
   formState?: FormState<any>
   reset?: UseFormReset<any>
   loading?: boolean
 };
 
-export default function FromButtonCommon<T>(props: FromButtonCommonProps<T>) {
+export default function AppFromButtonGroup<T>(props: AppFromButtonGroupProps<T>) {
   const {
     handleSearch,
     formItem,
